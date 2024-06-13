@@ -1,0 +1,19 @@
+.custom-datepicker {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+  }
+
+  .react-datepicker-fixed-height {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .react-datepicker-fixed-height .react-datepicker__month-container {
+    flex-grow: 1;
+  }
